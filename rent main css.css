@@ -1,0 +1,66 @@
+.Car-col{
+    margin-top:2% ;
+    float :left ;
+    justify-content: space-between;
+    scroll-padding-top:10px ;
+    max-width: 500px;
+    margin-right: 65px;
+}
+.Car-col{
+    flex-basis: 31%;
+    background: #dbe4ec;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition:0.5s ;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.Car{
+    width: 80%;
+    margin: auto;
+    text-align: left;
+    padding-top: 100px;
+}
+
+.Car-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+
+body{
+    background: hsl(216, 38%, 95%);
+}
+.navbar{
+    min-height: 30vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(erik-mclean-U06nswCc4l4-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.text-box{
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.text-box h1{
+        font-size: 62px;
+
+    }
+.text-box p{
+    margin: 10px 0 40px ;
+    font-size: 14px;
+    color: #fff;
+}
+.row{
+    display: flex;
+}
